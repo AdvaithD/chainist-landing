@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+/*
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 50px 100px;
+grid-template-rows: 100px 30px;
+}
+
+.red {
+  border-color: red;
+}
+.title {
+letter-spacing: 6px;
+color: #373a3c;
+font-size: 128px;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+
+font-weight: 100;
+font
+}
+.navbar {
+  font-family: 'Titillium Web', sans-serif;
+}
+.hero.is-success {
+  background-color: #373a3c;
+}
+
+body{
+  background-color: #F8F8F8;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #555;
+
+
+  }
+  strong {
+  color: #333;
+}
+a {color: #1567f2;}
+
+
+
+
+
+.hero {
+height: 100%;
+background-color: #00b4ff;
+background-color: #79e2ff;
+background-image: url(/images/noise.png), linear-gradient(138deg, #3c3c74 0, #00b4ff 120%);
+background-repeat: repeat, no-repeat;
+background-size: 120px 120px, 100% 100%;
+background-attachment: fixed;
+}
+
+.hero.is-success .navbar-link.is-active, .hero.is-success .navbar-link:hover, .hero.is-success a.navbar-item.is-active, .hero.is-success a.navbar-item:hover {
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+}
+.navbar-item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.typed {
+  display: inline;
+
+}
+.typed-cursor{
+        opacity: 1;
+        font-weight: 100;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        -ms-animation: blink 0.7s infinite;
+        -o-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }*/
+
+/*
+    .logo {
+      filter: brightness(0) invert(1);
+      padding-top: 15px;
+    }
+.text {
+  color: white;
+}
+
+.sec1 {
+  font-size: 48px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+
+}*/
+
+
+
+/////////////////////////////////
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.box {
+  width: 33%;
+  height:250px;
+}
