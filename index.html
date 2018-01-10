@@ -9,11 +9,13 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/master.css">
+
   <title>Chainist</title>
 </head>
 
 <body>
-  <div class="wrapper wrapper-1">
+  <div id="particles-js">
+  <section class="wrapper wrapper-1">
     <nav class="navbar navbar-expand-lg navbar-dark bg-light">
       <a class="navbar-brand" href="#">Chanist</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +30,12 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Blog</a>
+          </li>
         </ul>
 
       </div>
@@ -36,56 +44,82 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <p class="display-4">Open Source Product Studio</p>
-        <p class="lead ">We are an inventive product studio. We build what we dream of. Exploring the world of blockchains, cryptocurrency, AI, ML.</p>
+        <div class="typed-wrapper",onloadedmetadata="">
+          <p class="lead typed"></p></div>
+
       </div>
     </div>
+    </section>
 
-    <div class="row">
-      <div class="col-md-3 projects">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <section class="wrapper wrapper-2">
+      <div class="row row-60">
+        <div class="container">
+          <h1 class="entry">Building the web of <span class="bold">tomorrow</span></h1>
+            <p class="text-muted sub">We build proof of concepts and interesting projects revolving around blockchain technology</p>
+
+
+              <p>We need to question some of the fundamentals that the internet has been built upon. We also need to accept the fact that centralization limits opportunity to a certain extent, we are determined to find out the limits.</p>
+
+              <p class="release"><h3>First release March 2018</h3></p>
+        </div>
+      </div>
+      <div class="row row-40 text-muted">
+        <div class="col-md-3">
+          <div class="project-heading"><i class="fab fa-bitcoin"></i>Cryptoeconomics</div>
+          <div class="project-body">
+            <p class="text-muted">We study cryptoeconomics, which we believe is one of the most intriguing fields that has sprouted due to the growth of cryptocurrencies.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="project-heading">Due Diligence</div>
+          <div class="project-body">
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit libero eu egestas auctor.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="project-heading">Proof of Concepts</div>
+          <div class="project-body">
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit libero eu egestas auctor.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="project-heading">Research</div>
+          <div class="project-body">
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit libero eu egestas auctor.</p>
           </div>
         </div>
       </div>
-        <div class="col-md-3 projects">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-          <div class="col-md-3 projects">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-            <div class="col-md-3 projects">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
+    </section>
 
 
 
+
+
+
+    <script src="particles.js"></script>
           <!-- Optional JavaScript -->
           <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+          <script src="/js/typed.min.js" charset="utf-8"></script>
+<script src="/js/particles.min.js" charset="utf-8"></script>
+          <script>
+
+          particlesJS.load('particles-js', 'assets/particles-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+          var typed = new Typed(".typed", {
+          strings: ["Catalysing the Blockchain revolution. ^1000", "We are creatives arriving at the intersection of blockchain and revolution ^1000", "Cryptocurrency | Blockchain technology | AI | ML | Cryptoeconomics ^1000"],
+          smartBackspace: true,
+          cursorChar: '',
+          typeSpeed: 10,
+          loop: true
+        })
+          </script>
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+          <script src="/js/scripts.js" charset="utf-8"></script>
 </body>
 
 </html>
